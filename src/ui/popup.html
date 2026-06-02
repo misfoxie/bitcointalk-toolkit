@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bitcointalk Toolkit</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="logo">₿</div>
+      <div class="title">
+        <div class="name">Bitcointalk Toolkit</div>
+        <div id="site-status" class="status"></div>
+      </div>
+    </header>
+
+    <button id="btn-open-dashboard" class="btn-primary btn-full">
+      🚀 Open Full Dashboard
+    </button>
+
+    <div class="section-title">Toolkit Theme</div>
+    <select id="popup-toolkit-theme-select" class="theme-select" aria-label="Toolkit Theme"></select>
+
+    <div class="section-title">Forum Theme</div>
+    <select id="popup-forum-theme-select" class="theme-select" aria-label="Forum Theme"></select>
+
+    <div class="section-title">Quick Toggles</div>
+    <div id="quick-toggles" class="toggle-list">
+      <div class="toggle-row" data-module="darkMode">
+        <span class="toggle-icon">🌙</span>
+        <span class="toggle-label">Dark Mode</span>
+        <label class="switch"><input type="checkbox" data-key="darkMode"><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row" data-module="codeCopyFixer">
+        <span class="toggle-icon">📋</span>
+        <span class="toggle-label">Code Copy Fixer</span>
+        <label class="switch"><input type="checkbox" data-module="codeCopyFixer"><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row" data-module="quoteAssistant">
+        <span class="toggle-icon">💬</span>
+        <span class="toggle-label">Quote Assistant</span>
+        <label class="switch"><input type="checkbox" data-module="quoteAssistant"><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row" data-module="localDraftSaver">
+        <span class="toggle-icon">💾</span>
+        <span class="toggle-label">Draft Saver</span>
+        <label class="switch"><input type="checkbox" data-module="localDraftSaver"><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row" data-module="clipboardSafety">
+        <span class="toggle-icon">🔒</span>
+        <span class="toggle-label">Clipboard Safety</span>
+        <label class="switch"><input type="checkbox" data-module="clipboardSafety"><span class="slider"></span></label>
+      </div>
+      <div class="toggle-row" data-module="navigationBooster">
+        <span class="toggle-icon">⬆⬇</span>
+        <span class="toggle-label">Nav Arrows</span>
+        <label class="switch"><input type="checkbox" data-module="navigationBooster"><span class="slider"></span></label>
+      </div>
+    </div>
+
+    <div class="footer-btns">
+      <button id="btn-settings" class="btn-ghost">⚙ Settings</button>
+    </div>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
