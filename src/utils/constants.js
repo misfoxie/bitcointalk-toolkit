@@ -271,7 +271,7 @@ export const DEFAULT_SETTINGS = {
   showNotInDt: false,
   trustPositionBadgeDebug: false,
   trustPositionBadgeSourceMode: 'custom-thread',
-  trustPositionBadgeCustomThreadUrl: 'https://bitcointalk.org/index.php?topic=5584668.msg66790923#msg66790923',
+  trustPositionBadgeCustomThreadUrl: 'https://bitcointalk.org/index.php?topic=5584668.0',
   trustPositionBadgeCustomAuthor: '3727674',
   savedSnippets:        [],
   campaignProjects:     [],
